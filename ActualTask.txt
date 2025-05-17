@@ -1,0 +1,12 @@
+1.Додати поле на "Item Card", назва поля "Priority" з варіантами "Low","Medium","High". - 
+    Create table and page extension for the Item Card.Priority field has an Enum data type.
+    DONE
+2.Додати таке саме поле на "Sales Order" сабформу, тільки no editable, проносити значення з "Item Card" відповідного айтему на лінію.
+    Extend Sales Orde line and add new field to the Sales Order Subform.
+    Used Flowfield function to pull the values from the Item card to the Sales line.
+    DONE
+3.Додати поле на "Sales Order" сабформу з типом Decimal, назва "Capacity %", обмежити можливі значення від 0 до 100
+    Add new field to the Sales Subform called "Capacity %" and add validation on the decimal values for this field
+    DONE
+4.Додати поля "Priority" та "Capacity %" на "Posted Sales Invoice", пронести значення з "Sales Order" при постингу сюди. Відобразити на пейджі.
+    Add  new fields to the tableextension and pageextension related to the Posted Sales Invoice. Add flowfield logic to the Priority value.
